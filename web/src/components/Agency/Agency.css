@@ -1,0 +1,19 @@
+.Agency {
+  position: relative;
+  color: var(--color-primary);
+  width: 100%;
+  max-width: 47rem;
+  padding: calc(var(--gutter) * 2);
+
+  & code {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__Info {
+    width: 100%;
+    padding-left: 2rem;
+  }
+}
